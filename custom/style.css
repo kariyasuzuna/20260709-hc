@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body {
+    background-image: url(image593233014.png);
+}
+
+.bakuage {
+    background-image: linear-gradient(to right, red, white);
+    padding: 10px;
+    color: black;
+      font-size: 50px;
+    font-weight: bold;
+}
+
+.bakuage-2 {
+    /* 表示領域 */
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ffffff;
+    margin: 1em 0;
+    /* 文字 */
+    color: #ffffff;
+    -webkit-text-stroke: 2px #000;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 背景画像 */
+    background-image: url("i_14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+
+.bakuage-3 {
+    background-image: linear-gradient(to right, #e3f2fd, red, blue, rgb(247, 116, 138), black, orange, rgb(251, 45, 251), #e3f2fd);
+    padding: 100px 20px;
+     /* 文字 */
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
